@@ -1,0 +1,68 @@
+[
+  {
+    "category": "Urgency",
+    "pattern": "\\b(urgent|immediately|act now|within \\d+ hours?|last warning|pay now)\\b",
+    "weight": 40,
+    "floor": 0
+  },
+  {
+    "category": "Account threat",
+    "pattern": "\\b(account|demat).{0,35}(blocked|suspended|freeze|frozen)|\\b(account freeze|demat suspended)\\b",
+    "weight": 65,
+    "floor": 50
+  },
+  {
+    "category": "KYC pressure",
+    "pattern": "\\b(kyc expired|verify immediately|verify demat)|\\b(complete|update|verify).{0,20}kyc|\\bkyc.{0,20}(update|immediately|expired)",
+    "weight": 55,
+    "floor": 50
+  },
+  {
+    "category": "Guaranteed returns",
+    "pattern": "guaranteed.{0,25}(return|profit)|assured return|100% profit|double your money|risk[ -]free.{0,20}(return|profit|investment)",
+    "weight": 90,
+    "floor": 78
+  },
+  {
+    "category": "Investment group",
+    "pattern": "(join.{0,20}(telegram|whatsapp)|(telegram|whatsapp).{0,25}(stock|tip|invest))",
+    "weight": 60,
+    "floor": 50
+  },
+  {
+    "category": "Unverified advisory",
+    "pattern": "(exclusive stock tip|insider tip|sebi registered|pump.and.dump|fake ipo)",
+    "weight": 50,
+    "floor": 50
+  },
+  {
+    "category": "Advance fee",
+    "pattern": "(processing|activation|withdrawal) fee|pay.{0,40}(release|withdraw)|refund processing",
+    "weight": 85,
+    "floor": 75
+  },
+  {
+    "category": "Credential request",
+    "pattern": "(share|send|provide|enter|tell|give).{0,18}?\\b(otp|pin|cvv|password)\\b|\\bbank password",
+    "weight": 100,
+    "floor": 80
+  },
+  {
+    "category": "Remote access",
+    "pattern": "(install|download|open).{0,25}(anydesk|teamviewer)|remote access",
+    "weight": 100,
+    "floor": 80
+  },
+  {
+    "category": "Payment pressure",
+    "pattern": "(send money|transfer money|pay now|claim prize|lottery|claim.{0,12}reward)",
+    "weight": 50,
+    "floor": 50
+  },
+  {
+    "category": "Speculative investment pitch",
+    "pattern": "(crypto.{0,30}(profit|invest)|ipo.{0,30}(pay|allotment fee))",
+    "weight": 65,
+    "floor": 55
+  }
+]

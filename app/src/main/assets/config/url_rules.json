@@ -1,0 +1,24 @@
+{
+  "shorteners": [
+    "bit.ly",
+    "tinyurl.com",
+    "t.co",
+    "cutt.ly",
+    "rb.gy"
+  ],
+  "suspiciousTlds": [
+    "xyz",
+    "top",
+    "click",
+    "zip",
+    "work",
+    "vip"
+  ],
+  "weights": {
+    "language": 30,
+    "url": 25,
+    "impersonation": 20,
+    "financial": 15,
+    "credential": 10
+  }
+}

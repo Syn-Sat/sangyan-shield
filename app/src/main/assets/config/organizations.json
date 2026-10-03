@@ -1,0 +1,51 @@
+{
+  "SEBI": [
+    "sebi.gov.in"
+  ],
+  "NSDL": [
+    "nsdl.co.in",
+    "nsdl.com"
+  ],
+  "CDSL": [
+    "cdslindia.com"
+  ],
+  "SBI": [
+    "sbi.co.in",
+    "onlinesbi.sbi",
+    "sbi.bank.in"
+  ],
+  "HDFC Bank": [
+    "hdfcbank.com",
+    "hdfc.bank.in"
+  ],
+  "ICICI Bank": [
+    "icicibank.com"
+  ],
+  "Axis Bank": [
+    "axisbank.com"
+  ],
+  "Kotak": [
+    "kotak.com"
+  ],
+  "Zerodha": [
+    "zerodha.com"
+  ],
+  "Groww": [
+    "groww.in"
+  ],
+  "Upstox": [
+    "upstox.com"
+  ],
+  "Angel One": [
+    "angelone.in"
+  ],
+  "Paytm": [
+    "paytm.com"
+  ],
+  "PhonePe": [
+    "phonepe.com"
+  ],
+  "Google Pay": [
+    "pay.google.com"
+  ]
+}

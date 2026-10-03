@@ -1,0 +1,38 @@
+[
+  {
+    "category": "Account threat",
+    "pattern": "(aapka|apka).{0,35}(block|band) ho jayega|demat.{0,30}block ho jayega|खाता बंद हो जाएगा",
+    "weight": 80,
+    "floor": 70
+  },
+  {
+    "category": "KYC pressure",
+    "pattern": "kyc turant update kare|तुरंत\\s*kyc\\s*अपडेट करें",
+    "weight": 70,
+    "floor": 60
+  },
+  {
+    "category": "Payment pressure",
+    "pattern": "abhi payment kare",
+    "weight": 60,
+    "floor": 55
+  },
+  {
+    "category": "Credential request",
+    "pattern": "otp\\s*(share kare|शेयर करें)",
+    "weight": 100,
+    "floor": 80
+  },
+  {
+    "category": "Guaranteed returns",
+    "pattern": "paisa double|पैसा डबल|गारंटीड रिटर्न",
+    "weight": 95,
+    "floor": 78
+  },
+  {
+    "category": "Investment group",
+    "pattern": "telegram join kare",
+    "weight": 60,
+    "floor": 50
+  }
+]
